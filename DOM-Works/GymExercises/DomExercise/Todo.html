@@ -1,0 +1,24 @@
+<!-- Write a JavaScript function that takes an input from the user and dynamically creates a new list item element containing the input value. The new list item should be appended to an existing unordered list (ul) element with the ID "todoList". Additionally, add a button to each list item that allows the user to remove the item when clicked. Lastly, Add a checkbox for each list item so that a user can finish a task. When a task is  done, the name should be crossed through.
+Expected Output:
+When the user enters "Buy Fruits" and clicks a "Add" button, a new list item with the text "Buy Fruits” should be added to the "todoList" ul.
+The list item should have a "Remove" button next to it.
+When the user clicks the "Remove" button, the corresponding list item should be removed from the "todoList" ul. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "heading.css">
+</head>
+<body>
+    <h1 id = "header">To Do List</h1>
+    <input type = "text" name = "text" placeholder = "Enter any task"></input>
+    <ul id = "todoList"></ul>
+    <button id = "addTaskButton">Add</button>
+    <button id = "review">Remove</button>
+ <script src = "app.js"></script>
+</body>
+</html>
